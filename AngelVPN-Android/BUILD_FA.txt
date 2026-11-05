@@ -1,0 +1,17 @@
+نحوه ساخت APK (فارسی)
+
+۱. Android Studio را نصب کنید (نسخه Ladybug یا جدیدتر)
+۲. فایل AngelVPN-Android-src.zip را از حالت فشرده خارج کنید
+۳. Android Studio → Open → پوشه AngelVPN-Android را انتخاب کنید
+۴. صبر کنید تا Gradle Sync تمام شود (اولین بار چند دقیقه طول می‌کشد)
+۵. منوی Build → Build Bundle(s) / APK(s) → Build APK(s)
+۶. بعد از اتمام، روی locate کلیک کنید تا فایل app-debug.apk را ببینید
+۷. فایل APK را به گوشی منتقل و نصب کنید
+   (تنظیمات → امنیت → نصب از منابع ناشناس)
+
+نکته مهم:
+این نسخه فاز ۱ است — پارسر و UI و مجوز VPN کار می‌کند
+ولی تونل واقعی DNS هنوز وصل نشده (فاز ۲)
+
+اگر خطای SDK گرفتید:
+Tools → SDK Manager → Android 15 (API 35) را نصب کنید

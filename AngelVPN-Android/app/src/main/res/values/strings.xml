@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AngelVPN</string>
+    <string name="vpn_notification_title">AngelVPN</string>
+    <string name="vpn_notification_connected">متصل</string>
+    <string name="vpn_notification_connecting">در حال اتصال…</string>
+    <string name="vpn_notification_disconnected">قطع شده</string>
+    <string name="channel_vpn">اتصال VPN</string>
+    <string name="channel_vpn_desc">وضعیت اتصال تونل</string>
+</resources>
